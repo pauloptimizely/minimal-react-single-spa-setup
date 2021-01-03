@@ -1,17 +1,13 @@
-# minimal-react-webpack-babel-setup
-
-[![Build Status](https://travis-ci.org/rwieruch/minimal-react-webpack-babel-setup.svg?branch=master)](https://travis-ci.org/rwieruch/minimal-react-webpack-babel-setup) [![Greenkeeper badge](https://badges.greenkeeper.io/rwieruch/minimal-react-webpack-babel-setup.svg)](https://greenkeeper.io/)
-
-Read how to set it up yourself: [React with Webpack Tutorial](https://www.robinwieruch.de/minimal-react-webpack-babel-setup/).
-
-[![Edit minimal-react-webpack-babel-setup](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/rwieruch/minimal-react-webpack-babel-setup/tree/master/?fontsize=14)
+# minimal-react-single-spa-setup
 
 ## Features
 
-- React 16
+- React 17
 - Webpack 5
 - Babel 7
 - Hot Module Replacement
+- [SystemJS](https://github.com/systemjs/systemjs) modules
+- [SingleSPA](https://single-spa.js.org/)
 
 ## DIY Add-Ons
 
@@ -28,8 +24,8 @@ Read how to set it up yourself: [React with Webpack Tutorial](https://www.robinw
 
 ## Installation
 
-- `git clone git@github.com:rwieruch/minimal-react-webpack-babel-setup.git`
-- cd minimal-react-webpack-babel-setup
+- `git clone https://github.com/pauloptimizely/minimal-react-single-spa-setup.git`
+- cd minimal-react-single-spa-setup
 - npm install
 - npm start
-- visit `http://localhost:8080/`
+- visit `http://localhost:3000/`
