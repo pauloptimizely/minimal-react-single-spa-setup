@@ -4,10 +4,12 @@ import singleSpaReact from 'single-spa-react';
 
 import App from './App';
 
+export const rootComponent = App;
+
 const reactLifecycles = singleSpaReact({
   React,
   ReactDOM,
-  rootComponent: App,
+  rootComponent,
   errorBoundary(err, info, props) {
     // https://reactjs.org/docs/error-boundaries.html
     return (
